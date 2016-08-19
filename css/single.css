@@ -1,0 +1,147 @@
+/*header*/
+#header{
+	height: 200px;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+#header .header-bg{
+	width: 100%;
+	background-clip: 200px;
+}
+#header .nav-show{
+	width: 5.2rem;
+	height: 5.2rem;
+	display: block;
+	position: absolute;
+	right: 8rem;
+	top: 6.8rem;
+	cursor: pointer;
+	background: url(../imgs/nav-icon.png) no-repeat 0 0;
+}
+/*content*/
+#content{
+	width: 1140px;
+	height: 870px;
+	margin: 78px auto;
+}
+#content p{
+	margin-top: 14px;
+	margin-bottom: 54px;
+	color: #555;
+	font-size: 1.7rem;
+	line-height: 2rem;
+}
+#content .author{
+	width: 1138px;
+	height: 180px;
+	border: 1px solid #e6e6e6;
+	padding: 24px;
+}
+#content .author h3{
+	color: #999;
+	font-size: 1.7rem;
+	margin-top: 14px;
+	margin-bottom: 10px;
+}
+#content .author .title a{
+	color: #555;
+	font-size: 1.7rem;
+}
+#content .author .info a{
+	color: #999;
+}
+#content .author .info a:hover{
+	color: red;
+}
+#content .author a:hover, #content .author .info a:hover{
+	text-decoration: underline;
+}
+#content .author img{
+	float: left;
+	width: 107px;
+	height: 107px;
+}
+#content .author p{
+	float: left;
+	margin-left: 12px;
+}
+/*comment*/
+#comment{
+	width: 1140px;
+	height: 670px;
+	margin: 80px auto;
+}
+#comment h3{
+	font-size: 3rem;
+	color: #555;
+}
+#comment label{
+	display: block;
+	color: #999;
+	font-weight: 300px;
+	font-size: 1.7rem;
+	height: 42px;
+	line-height: 42px;
+}
+#comment span{
+	font-size: 3rem;
+	left: 12px;
+	color: #e4411b;
+	position: absolute;
+}
+#comment input{
+	display: block;
+	width: 855px;
+	height: 55px;
+	border: none;
+	outline: none;
+	text-indent: 27px;
+	color: #999;
+	/*font-size: 1.6rem;*/
+}
+#comment p{
+	position: relative;
+}
+#comment textarea[name="website"]{
+	width: 1026px;
+	height: 246px;
+	display: block;
+	border: none;
+	outline: none;
+	text-indent: 27px;
+	font-size: 1.7rem;
+	color: #999;
+	padding: 10px;
+}
+#comment input[type="submit"]{
+	width: 172px;
+	height: 56px;
+	background-color: #02D7FD;
+	color: #fff;
+	cursor: pointer;
+	border: none;
+	text-indent: 0;
+	display: block;
+	margin-top: 14px;
+	padding: 15px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
